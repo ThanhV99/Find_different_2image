@@ -17,8 +17,8 @@ from PyQt5.QtWidgets import QFileDialog
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1080, 720)
+        MainWindow.setObjectName("My App")
+        MainWindow.setFixedSize(1080, 720)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.button_reset = QtWidgets.QPushButton(self.centralwidget)
